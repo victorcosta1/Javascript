@@ -126,3 +126,18 @@ console.log(podeAplicar2)
 
 
 let candidatoRecusado = !podeAplicar;
+
+
+
+
+//Comparação logicas não booleanas 
+
+//falsy:
+//Undefined, null, 0, false, '', NaN,
+
+//Truthy
+
+
+let corPersonalizada = 'Vermelho';
+let corPadrão = 'Azul';
+let corPerfil = corPersonalizada || corPadrão;
