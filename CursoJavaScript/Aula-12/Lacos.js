@@ -21,3 +21,47 @@ for(let a = 1 ; a < 5; a++){
         console.log(a)
     }
 }
+
+
+
+//Laços/Loop While
+
+//While Loop
+
+let i = 5;
+
+while(i >= 1) {
+    if(i % 2 !==0){
+        console.log(i)
+    }
+
+    i--;
+}
+
+//Do.. While
+
+do {
+    console.log('Digitando...');
+}while (i < 10)
+
+
+//For in
+
+const pessoa = {
+   //Key   Value
+    nome: 'Victor',
+    idade: 25
+};
+//     key-Value
+for(let chave in pessoa){
+    console.log(chave, pessoa.nome );
+}
+
+const cores = ['Vermelho', 'Azul', 'Verde' ];
+
+for (let indice in cores) {
+    console.log(indice, cores[indice])
+}
+
+//For of
+ 
