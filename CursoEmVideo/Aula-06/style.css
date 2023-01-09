@@ -1,0 +1,9 @@
+div#area{
+    margin: 0 auto;
+    background: green; 
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    line-height: 200px; 
+    text-align: center;
+}
