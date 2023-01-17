@@ -1,34 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nacionalidade</title>
+    <link rel="stylesheet" href="style.css">
+    <title>ex-01</title>
 </head>
-<body>
-    <h1>Gerenciador de nacionalidades</h1>
+<body onload="carregar()">
+    <header>
+        <h1>Hora do dia</h1>
+    </header>
 
-    <p>Informe sua nacionalidade:</p>
-    <input type="text" name="txtN" id="txtN">
-    <input type="button" value="Enviar" onclick="enviar()">
+    <section>
+        <div  id="msg">
+            aqui vai aparecer a mensagem..
+        </div>
+        <div id="foto">
+            <img id="imagem" src="img/fotoManha.jpg">
+        </div>
+    </section>
 
-    <div id="res"></div>
-
-
-    <script>
-        function enviar(){
-    var pais = document.getElementById('txtN')
-    var res = document.getElementById('res')
-    
-
-    res.innerHTML(`Vivendo em: ${pais}`)
-    if(pais == 'Brasil') {
-        res.innerHTML('Você é: Brasileiro')
-    } else {
-        res.innerHTML('Você é: Estrangeiro')
-    }
-}
-    </script>
+    <footer><p>2023 | Victor Costa</p></footer>
+    <script src="ex-01.js"></script>
 </body>
 </html>
